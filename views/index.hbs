@@ -1,0 +1,12 @@
+<form id="searchForm" action="/generate" method="POST">
+    <div class="container-fluid" >
+        <div class="form-group" id="form-container">
+            <label for="prompt">Your Prompt:</label>
+            <textarea class="form-control" id="prompt" name="prompt" rows="10" required></textarea>
+        </div>
+        <button type="submit" id="searchButton" class="btn btn-primary">Generate Image</button>
+    </div>
+</form>
+
+<div id="imageContainer" class="container-fluid mt-4"></div>
+<div id="errorContainer" class="container-fluid mt-4 text-danger"></div>
