@@ -1,0 +1,16 @@
+Authors:
+    Stefan Saladino
+    Adam Miskiewicz
+    Jonathan Diaz
+
+App:
+    Dall E powered web app. Takes a text input and converts it to an image.
+
+Essential packages:
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "http-errors": "~1.6.3",
+
+API:
+    https://rapidapi.com/bussinesonline250/api/ai-text-to-image-generator-api/playground/apiendpoint_ae7f18fc-981b-43f6-90b9-237e8d71cfa0
