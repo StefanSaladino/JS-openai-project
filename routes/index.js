@@ -9,6 +9,12 @@ router.get('/', function(req, res, next) {
 // Route to handle image generation
 router.post('/generate', (req, res) => {
     const prompt = req.body.inputs;
+    const password = req.body.password;
+
+    // Check the password
+    if (password !== process.env.PASSWORD) {
+        return res.status(401).json({ error: 'Incorrect password' });
+    }
 
     const options = {
         method: 'POST',
